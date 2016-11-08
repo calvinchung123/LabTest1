@@ -25,6 +25,7 @@ void setup()
       y3=y3+65;
   }
   ArrayList<star> data = new ArrayList<star>() ;
+
 }
 //variables for the x axis 
 int x1=50;
@@ -37,11 +38,11 @@ int x3=47;
 int y3=54;
 int num=-5;
 //loading the data
-void loadData()
-{
-  String[] lines = loadStrings("star.csv");
- 
-}
+ void loadData()
+   {
+    String[] lines = loadStrings("star.csv");
+    data.add(star);
+    }
 void draw ()
 {
   
